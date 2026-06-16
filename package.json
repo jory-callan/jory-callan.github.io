@@ -1,9 +1,10 @@
 {
-  "name": "astro-antfustyle-theme",
-  "version": "2.4.0",
+  "name": "jory-callan",
+  "version": "1.0.0",
   "type": "module",
   "private": true,
   "license": "MIT",
+  "packageManager": "pnpm@10.33.2",
   "scripts": {
     "astro": "astro",
     "sync": "astro sync",
