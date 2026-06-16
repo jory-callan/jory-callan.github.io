@@ -1,7 +1,7 @@
 ---
-title: '404'
+title: Projects
 subtitle: ''
-description: Page not found
+description: My projects
 bgType: false
 ogImage: false
 ---
@@ -17,10 +17,12 @@ import StandardLayout from '~/layouts/StandardLayout.astro'
 >
   <StandardLayout title={frontmatter.title} subtitle={frontmatter.subtitle}>
     <div slot="article">
-      <p>Nothing here yet. But here's something useful:</p>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="https://github.com/jory-callan/kdebug">kdebug</a> — K8s debug pod</li>
+        <li>
+          <a href="https://github.com/jory-callan/kdebug"><strong>kdebug</strong></a>
+          — K8s debug pod: test client IP, memory, CPU, latency with one curl.
+          Supports Echo / Gin / Mux / NetHTTP.
+        </li>
       </ul>
     </div>
   </StandardLayout>
